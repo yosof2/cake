@@ -1,0 +1,121 @@
+/* + figcaption */
+
+figcaption .content, section .content, .section-2 .content,.section-3 .content{
+    width: 60%;
+    margin: auto;
+    padding-top: 2rem;
+}
+figcaption .content .up{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     flex-wrap: wrap;
+} 
+figcaption .content .up :last-child{
+    display: flex; 
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0.2rem 4rem 0.2rem 1rem;
+    margin-right: -1.5rem;
+} 
+figcaption .content .up :first-child{
+    display: flex; 
+    align-items: center;
+    gap: 2rem;
+} 
+figcaption h2, section h2, .section-2 h2, .section-3 h2{
+    color: var(--pink);
+    font-family: 'Montserrat';
+    font-size: 2.4rem;
+    font-weight: 900;
+}
+figcaption a, .section-2 a, .section-3 a{
+    color: var(--blue);
+    font-family: 'Montserrat';
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+figcaption p{
+    color: var(--black);
+    font-size: 1.3rem;
+}
+figcaption h6, section h6, .section-2 h6, .section-3 h6{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--black);
+    padding-bottom: 0.5rem;
+ }
+figcaption option{
+    color: var(--black);
+}
+figcaption .sel{
+    color: var(--black);
+}
+figcaption img, section img, .section-2 img, .section-3 img{
+    width: 15rem;
+    border-radius: 0.7rem;
+    overflow: hidden;
+    border: solid 3px var(--purple);
+    padding: 0.5rem 0;
+}
+.photo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    padding: 4rem 0;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+figcaption .content .photo > div div, .section-2 .photo > div div, .section-3 .photo > div div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 1rem 0 2rem;
+}
+/* - figcaption */
+
+/* + section */
+section{
+    min-height: 40vh;
+    background-color: var(--green);
+    margin-bottom: 2rem;
+}
+section img, .section-2 img, .section-3 img{
+    border: none;
+    padding: 0;
+}
+section h2{
+    color: var(--purple);
+}
+/*************/
+section .photo > div, .section-2 .photo > div, .section-3 .photo > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.section-2 .up, .section-3 .up{
+    display: flex;
+    align-items: center;
+    gap: 2rem;    
+}
+.section-2 .photo > div div, .section-3 .photo > div div{
+    padding: 0;
+}
+.section-3{
+    background-color: var(--purple);
+}
+.section-3 h2, .section-3 h3{
+    color: var(--black);
+}
+.section-3 a, .section-3 h6{
+    color: var(--white);
+}
+.section-3 h3,.section-2 h3{
+    color: var(--black);
+    font-weight: 700;
+    font-size: 13.5px;
+}
+/* - section */

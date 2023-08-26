@@ -1,0 +1,81 @@
+footer{
+    background-color: var(--black);
+    padding-top: 20px;
+}
+footer .d-flex{
+   display: flex; 
+}
+footer .conent{
+    justify-content: space-around;
+    width: 100%;
+}
+footer .flex-center{
+    justify-content: center;
+    align-items: center;
+}
+footer .flex-wrap{
+    flex-wrap: wrap;
+}
+footer .first pre {
+    margin-top: 10px;
+    color: white;
+}
+footer .margin{
+    margin-right: 50px;
+}
+
+footer .secaned{
+    color: white;
+    
+    margin-top: 7px;
+
+}
+footer .secaned .text {
+    margin-top: 9px;
+}
+
+footer .login{
+    padding: 20px 0px;
+    color: white;
+}
+footer .inp{
+    background-color: var(--black);
+    border: solid 1px var(--white);
+}
+footer input{
+    padding: 0.3rem 0.6rem;
+}
+footer form{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+footer button{
+    padding: 0.5rem 1.8rem;
+}
+footer .icon-social{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+
+
+
+
+.container{
+    width: 65%; 
+    overflow: hidden;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media only screen and (max-width: 1200px){
+ .container {
+    min-width: 95%;
+}
+}  
